@@ -1,0 +1,22 @@
+let navigatorMenu = [
+    {
+        title:"Dashboard",
+        link:"#",
+        icon:"bi-speedometer2"
+    },
+    {
+        title:"Users",
+        link:"#",
+        icon:"bi-people-fill"
+    },
+    {
+        title:"Posts",
+        link:"#",
+        icon:"bi-file-post"
+    },
+    {
+        title:"Orders",
+        link:"#",
+        icon:"bi-award-fill"
+    }
+]

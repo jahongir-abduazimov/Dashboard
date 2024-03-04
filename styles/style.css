@@ -1,0 +1,8 @@
+.user-form-toggle {
+    display: flex !important;
+}
+
+.aside-toggle {
+    transform: translate(-100%);
+    display: none;
+}

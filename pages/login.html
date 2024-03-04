@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <main class="grid place-content-center min-h-screen">
+            <div class="login-page w-[400px] p-5 border-indigo-300 border-2 rounded-xl">
+                <h1 class="text-indigo-600 text-[25px] mb-5 font-semibold text-center">LOGIN</h1>
+                <form id="submit-form" class="flex flex-col gap-5">
+                    <label for="username">
+                        <input id="username" type="text" placeholder="Enter username" class="outline-none w-full text-indigo-600 font-semibold text-[18px] ring-1 ring-indigo-300 rounded-full px-4 py-2 focus:ring-2 focus:ring-indigo-600 duration-150">
+                    </label>
+                    <label for="password">
+                        <input id="password" type="password" placeholder="Enter password" class="outline-none w-full text-indigo-600 font-semibold text-[18px] ring-1 ring-indigo-300 rounded-full px-4 py-2 focus:ring-2 focus:ring-indigo-600 duration-150">
+                    </label>
+                    <button class="w-full bg-indigo-600 rounded-full py-2 font-semibold text-white text-[20px]">Login</button>
+                </form>
+            </div>
+        </main>
+    </body>
+    <script src="../assets/js/utilis.js"></script>
+    <script src="../assets/js/login.js"></script>
+</html>
